@@ -2,12 +2,13 @@
   --white-color: #ffffff;
   --navy-blue: #2e2f42;
   --button-blue: #4d5ae5;
+  --text-color: #434455;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: #434455;
+  color: var(--text-color);
   background-color: var(--white-color);
 }
 
@@ -66,7 +67,7 @@ body {
 
 .header-social-link {
   text-decoration: none;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .header-social-link:focus,
@@ -85,22 +86,25 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--white-color);
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background: var(--button-blue);
   color: var(--white-color);
+  cursor: pointer;
 }
 
 .hero-button:focus,
 .hero-button:hover {
   background: #404bbf;
   color: var(--white-color);
-}
-
-.solution-list {
-  list-style: none;
 }
 
 .solution-subtitle {
@@ -111,9 +115,10 @@ body {
   color: var(--navy-blue);
 }
 
-.soolution-text {
+.solution-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-size: 16px;
 }
 
 .job-title {
@@ -123,6 +128,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
+  text-align: center;
 }
 
 .job-list {
@@ -139,10 +145,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
+  text-align: center;
 }
 
-.team-list {
-  list-style: none;
+.team-item {
+  background-color: var(--white-color);
 }
 
 .team-subtitle {
