@@ -50,11 +50,11 @@ body {
 .header-social-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .header-social-link {
   text-decoration: none;
+  color: #434455;
 }
 
 .header-social-link:active,
