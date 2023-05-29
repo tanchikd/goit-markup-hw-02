@@ -178,6 +178,9 @@ body {
   color: var(--button-blue);
   background: #f4f4fd;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .portfolio-button:hover,
