@@ -2,6 +2,7 @@
   --white-color: #ffffff;
   --navy-blue: #2e2f42;
   --button-blue: #4d5ae5;
+  --button-background: #f4f4fd;
   --text-color: #434455;
 }
 
@@ -176,11 +177,15 @@ body {
 
 .portfolio-button {
   color: var(--button-blue);
-  background: #f4f4fd;
+  background: var(--button-background);
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-blue);
+  cursor: pointer;
 }
 
 .portfolio-button:hover,
