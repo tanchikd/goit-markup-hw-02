@@ -3,6 +3,7 @@
   --navy-blue: #2e2f42;
   --button-blue: #4d5ae5;
   --button-background: #f4f4fd;
+  --button-hov-foc: #404bbf;
   --text-color: #434455;
 }
 
@@ -54,7 +55,7 @@ body {
 .header-menu-link:focus,
 .header-menu-link:hover {
   text-decoration: underline;
-  color: #404bbf;
+  color: var(--button-hov-foc);
 }
 
 .header-social-list {
@@ -73,7 +74,7 @@ body {
 
 .header-social-link:focus,
 .header-social-link:hover {
-  color: #404bbf;
+  color: var(--button-hov-foc);
 }
 
 .header-social {
@@ -104,7 +105,7 @@ body {
 
 .hero-button:focus,
 .hero-button:hover {
-  background: #404bbf;
+  background: var(--button-hov-foc);
   color: var(--white-color);
 }
 
@@ -190,7 +191,7 @@ body {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  background: #404bbf;
+  background: var(--button-hov-foc);
   color: var(--white-color);
 }
 
